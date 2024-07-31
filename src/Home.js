@@ -1,7 +1,12 @@
 const Home = () => {
+
+const handleClick =() =>{
+    console.log("hello World!");
+}
     return ( 
         <div className="home">
-            <h2>Home page</h2>
+            <h2>Home Page</h2>
+            <button onClick={handleClick}>Click Me</button>
         </div>
 
      );
